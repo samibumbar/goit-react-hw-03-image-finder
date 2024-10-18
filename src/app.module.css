@@ -1,0 +1,8 @@
+.containerFeedback {
+  padding: 30px;
+  background-color: beige;
+  border-radius: 10px;
+  box-shadow:
+    3px 3px 8px rgba(0, 0, 0, 0.2),
+    4px 4px 9px rgba(0, 0, 0, 0.08);
+}
