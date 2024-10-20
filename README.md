@@ -1,18 +1,25 @@
 
 # Image Search Application
 
-This application, built with **TypeScript**, allows users to search for and view images using the public [Pixabay API](https://pixabay.com/api/docs/). Users can enter a keyword in the search bar to retrieve a list of relevant images, which can be viewed in detail through a modal window.
+## Description
 
-## Table of Contents
+This application is a React app that allows users to search for images using the Pixabay API. The application provides a user-friendly interface for searching, viewing, and discovering images. Users can search for images by keywords and view images in a larger format through a modal.
 
-- [Requirements](#requirements)
-- [Components](#components)
-  - [Searchbar](#1-searchbar)
-  - [ImageGallery](#2-imagegallery)
-  - [ImageGalleryItem](#3-imagegalleryitem)
-  - [Button](#4-button)
-  - [Loader](#5-loader)
-  - [Modal](#6-modal)
-- [Using the Pixabay API](#using-the-pixabay-api)
-- [Installation](#installation)
-- [Contributing](#contributing)
+## Features
+
+- **Image Search**: Users can enter keywords to search for relevant images.
+- **Image Gallery**: The retrieved images are displayed in a gallery, allowing users to easily navigate through the search results.
+- **Load More Images**: Users can load more images with a single click.
+- **Modal for Detailed Viewing**: Selected images can be viewed in a modal for a better viewing experience.
+
+## Technologies Used
+
+- **React**: JavaScript library for building user interfaces.
+- **TypeScript**: A programming language that extends JavaScript with static types.
+- **Axios**: A library for making HTTP requests to the Pixabay API.
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/username/repo-name.git
