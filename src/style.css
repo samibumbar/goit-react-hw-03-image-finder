@@ -7,7 +7,7 @@
 html,
 body {
   display: flex;
-  flex-grow: 1;
+  /* flex-grow: 1; */
 
   margin: 0;
   font-family: "Open Sans", sans-serif;
@@ -16,15 +16,20 @@ body {
 
 body {
   min-height: 100vh;
+  min-width: 100%;
   background: rgb(232, 236, 241);
 }
-
+.container {
+  width: 100%;
+}
+button {
+  padding: 1rem;
+}
 #app {
   display: flex;
   justify-content: center;
-  align-items: center;
+  margin: 0 auto;
+  max-width: 75rem;
   flex-grow: 1;
-  padding: 30px;
-
-  height: 100%;
+  /* padding: 30px; */
 }
